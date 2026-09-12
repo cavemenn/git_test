@@ -1,0 +1,17 @@
+Notes
+1) Create Repos on Github website with the "+" button and click New Repository
+2) After create new repo, go and CLONE it... clone url can be found in the green "code" button and rmb to click ssh and copy the url
+3) then go and clone it on the terminal (remember to make the terminal directory to where you store the repos on your laptop)
+    a) to make new directory (folder) on laptop use >> mkdir (enter directory)
+    b) then to make the terminal to current directory use >> cd (enter directory)
+4) to clone directory
+    a) git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
+5) to test it (first make sure the terminal is on the repo directory), then use the command git remote -v
+    a) this will give 2 outputs, one is FETCH, one is PUSH
+6) to create a file in the directory, use >> touch hello_world.txt (can be other that txt)
+7) now that you have added or modified or deleted something from the repo, you need to ADD, COMMIT, then finally PUSH
+    a) to add >> git add (enter file name) or git add . (the dot make it to add all files in the current directory and all subsequent directories to the staging area)
+    b) to commit >> git commit -m "Enter your message here" or git commit (after adding this in terminal git config --global core.editor "code --wait")
+    c) to push >> git push (or to be mmore specific git push origin main)
+8) whenever dunno whether to add, commit or push..
+        use >> git status
