@@ -15,3 +15,4 @@ Notes
     c) to push >> git push (or to be mmore specific git push origin main)
 8) whenever dunno whether to add, commit or push..
         use >> git status
+9) also, use >> git log (to see logs or what has happen)
